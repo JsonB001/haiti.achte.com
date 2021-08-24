@@ -1,10 +1,61 @@
 body{
     margin: 0;
+    padding: 0;
 }
 .header{
     background-image: linear-gradient(160deg, black, black, red);
     width: max;
-    height: max;
+    height: 100vh;
+    font-size: 40px;
     color: aliceblue;
-    transform: translateX(-50);
+
+}
+nav h1{
+    font-family: 8-bit Limit RO BRK;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.navbar{
+    height: 8vh;
+    color:blanchedalmond;
+    background-color: black;
+    margin-top: -15px;
+    border-radius: 10px;
+    list-style-type: none;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+li{
+    list-style-type: none;
+    float: right;
+    padding: 10px 10px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+}
+#menu{
+    cursor: pointer;
+}
+p{
+    font-size: 50px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.content .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.content .section:nth-child(1){
+    background-size: cover;
+    background-color: red;
+    background-attachment: fixed;
 }
